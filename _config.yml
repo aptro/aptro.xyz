@@ -33,7 +33,7 @@ author:
 plugins:
   - jekyll-paginate
 
-google_analytics_id: #UA-XXXX-Y
+google_analytics_id: G-4JJBEP3W2H
 
 # Exclude from processing.
 # The following items will not be processed, by default.
