@@ -13,7 +13,6 @@ If you are a business owner you have to make decisions every day. if you don’t
 * Ability to prioritize important things.
 * Ability to think from a long term perspective.
 
-
 ## What worked for me to improve mental clarity.
 
 ### Diet
