@@ -21,7 +21,7 @@
 title: aptro.me
 description: thoughts on Software, Startup, System design, Investing
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aptro.me" # the base hostname & protocol for your site, e.g. http://example.com
 paginate: 5
 permalink: pretty
 
