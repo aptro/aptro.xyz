@@ -29,6 +29,16 @@ author:
   name: Akash Patro
   url: https://twitter.com/aptro_
 
+twitter:
+  username: aptro_
+  card: summary
+
+social:
+  name: Akash Patro
+  links:
+    - https://twitter.com/aptro_
+    - https://github.com/aptro
+
 # Build settings
 plugins:
   - jekyll-paginate
