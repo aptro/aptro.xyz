@@ -32,6 +32,7 @@ author:
 # Build settings
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
 
 google_analytics_id: 
 
