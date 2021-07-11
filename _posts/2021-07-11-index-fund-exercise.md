@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The big five, Index fund of exercise"
+title:  "The big five, Index fund of exercises"
 date:   2021-07-11 20:13:00 +0530
 categories: decision making
 permalink: /index-fund-exercise/
