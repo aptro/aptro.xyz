@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: aptro.me
-description: thoughts on Software, Startup, System design, Investing
+title: aptro.xyz
+description: Thoughts, experiments on software, startups, and system design
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aptro.me" # the base hostname & protocol for your site, e.g. http://example.com
-paginate: 5
+url: "https://aptro.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+paginate: 10
 permalink: pretty
 
 author:

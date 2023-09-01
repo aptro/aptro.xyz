@@ -5,16 +5,19 @@
 
   <body>
 
-    {% include sidebar.html %}
-
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+            <a style="text-decoration: underline;" href="{{ site.baseurl }}/" title="Posts">posts</a>
+            <!-- <small>{{ site.description }}</small> -->
+            {% for page in site.pages %}
+              {% if page.title != null and page.layout == "page" %}
+                <a style="text-decoration: underline;" href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+              {% endif %}
+            {% endfor %}
           </h3>
         </div>
       </div>
@@ -23,8 +26,6 @@
         {{ content }}
       </div>
     </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
   </body>
